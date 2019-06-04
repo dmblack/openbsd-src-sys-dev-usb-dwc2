@@ -79,7 +79,7 @@
 	}						\
 } while (0)
 #define	DPRINTF(...)	DPRINTFN(1, __VA_ARGS__)
-int dwc2debug = 0;
+int dwc2debug = 1;
 #else
 #define	DPRINTF(...) do { } while (0)
 #define	DPRINTFN(...) do { } while (0)
